@@ -1,0 +1,84 @@
+import React from 'react';
+// import { useState } from "react"
+
+const Gallery = () => {
+    return(
+        <div className="gallery" id="gallery">
+
+        <div className="gallery-card">
+            <div><p>2007</p></div>
+            <div><img src="img/news/news-01.jpg" alt="Italian Spiderman" /></div>
+            <div><span>Digital Marketing</span><h3>Changes at Linked In</h3></div>
+        </div>
+
+        <div className="gallery-card">
+            <div><p>2007</p></div>
+            <div><img src="img/news/news-02.jpg" alt="Italian Spiderman" /></div>
+            <div><span>Streaming Media</span><h3>Going Viral</h3></div>
+        </div>
+
+        <div className="gallery-card">
+            <div><p>2007</p></div>
+            <div><img src="img/news/news-03.jpg" alt="Italian Spiderman" /></div>
+            <div><span>PASSION</span><h3>No More Mediocre</h3></div>
+        </div>
+
+        <div className="gallery-card">
+            <div><p>2007</p></div>
+            <div><img src="img/news/news-04.jpg" alt="Italian Spiderman" /></div>
+            <div><span>Social Media</span><h3>All a Twitter with X</h3></div>
+        </div>
+
+        <div className="gallery-card">
+            <div><p>2007</p></div>
+            <div><img src="img/news/news-05.jpg" alt="Italian Spiderman" /></div>
+            <div><span>SIGNAGE</span><h3>Captivating the Audience</h3></div>
+        </div>
+
+        <div className="gallery-card">
+            <div><p>2007</p></div>
+            <div><img src="img/news/news-06.jpg" alt="Italian Spiderman" /></div>
+            <div><span>movie</span><h3>Italian Spiderman</h3></div>
+        </div>
+
+        <div className="gallery-card">
+            <div><p>2007</p></div>
+            <div><img src="img/news/news-07.jpg" alt="Italian Spiderman" /></div>
+            <div><span>Social Media</span><h3>Face to Face with Facebook</h3></div>
+        </div>
+
+
+        <div className="gallery-card">
+            <div><p>2007</p></div>
+            <div><img src="img/news/news-08.jpg" alt="Italian Spiderman" /></div>
+            <div><span>ANALYTICS</span><h3>Clustering & Feature Extraction</h3></div>
+        </div>
+
+        <div className="gallery-card">
+            <div><p>2007</p></div>
+            <div><img src="img/news/news-09.jpg" alt="Italian Spiderman" /></div>
+            <div><span>SOCIAL MEDIA</span><h3>Multichannel Messaging</h3></div>
+        </div>
+
+        <div className="gallery-card">
+            <div><p>2007</p></div>
+            <div><img src="img/news/news-10.jpg" alt="Italian Spiderman" /></div>
+            <div><span>SEO</span><h3>Optimisation with ChatGPT</h3></div>
+        </div>
+
+        <div className="gallery-card">
+            <div><p>2007</p></div>
+            <div><img src="img/news/news-11.jpg" alt="Italian Spiderman" /></div>
+            <div><span>Market Focus</span><h3>Taking a Closer Look</h3></div>
+        </div>
+
+        <div className="gallery-card">
+            <div><p>2007</p></div>
+            <div><img src="img/news/news-12.jpg" alt="Italian Spiderman" /></div>
+            <div><span>FINDING INSPIRATION</span><h3>Divergent Ideation</h3></div>
+        </div>
+    </div>
+    )
+}
+
+export default Gallery;

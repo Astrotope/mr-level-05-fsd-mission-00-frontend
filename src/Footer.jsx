@@ -3,9 +3,9 @@ import React from 'react';
 
 const Footer = () => {
     return(
-        <footer className="footer">
-		My Cool Footer
-        </footer> 
+        <footer className="footer" id="footer">
+            Copyright © 2023 Marketing Association of New Zealand (M.A.N.Z.)
+        </footer>
     )
 }
 

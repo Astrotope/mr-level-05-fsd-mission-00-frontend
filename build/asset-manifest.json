@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/static/css/main.32b2faee.css",
+    "main.js": "/static/js/main.46b23993.js",
+    "static/media/krzysztof-kowalik-2pnozU26QBo-unsplash.png": "/static/media/krzysztof-kowalik-2pnozU26QBo-unsplash.85f8f3073c5521f5bb74.png",
+    "index.html": "/index.html",
+    "main.32b2faee.css.map": "/static/css/main.32b2faee.css.map",
+    "main.46b23993.js.map": "/static/js/main.46b23993.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.32b2faee.css",
+    "static/js/main.46b23993.js"
+  ]
+}

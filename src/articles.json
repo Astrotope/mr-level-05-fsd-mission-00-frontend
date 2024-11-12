@@ -1,0 +1,363 @@
+{
+  "Search": [
+    {
+      "Title": "Changes at Linked In",
+      "Year": "2007",
+      "imdbID": "df7c85f3-fd0b-4d2b-a10f-4ab7c6fc2dfb",
+      "Type": "Digital Marketing",
+      "Poster": "img/news/news-01.jpg"
+    },
+    {
+      "Title": "Going Viral",
+      "Year": "2007",
+      "imdbID": "279a5162-6c71-48d6-9996-e01b709f84f5",
+      "Type": "Streaming Media",
+      "Poster": "img/news/news-02.jpg"
+    },
+    {
+      "Title": "No More Mediocre",
+      "Year": "2007",
+      "imdbID": "e0516c4a-4b1e-48db-93f0-c7e8fc50fae1",
+      "Type": "PASSION",
+      "Poster": "img/news/news-03.jpg"
+    },
+    {
+      "Title": "All a Twitter with X",
+      "Year": "2007",
+      "imdbID": "ac77f7b4-69ab-42db-b210-1b03cc64e502",
+      "Type": "Social Media",
+      "Poster": "img/news/news-04.jpg"
+    },
+    {
+      "Title": "Captivating the Audience",
+      "Year": "2007",
+      "imdbID": "82eeeb9e-cb9e-481f-96b0-d0173b3e2e1b",
+      "Type": "SIGNAGE",
+      "Poster": "img/news/news-05.jpg"
+    },
+    {
+      "Title": "Italian Spiderman",
+      "Year": "2007",
+      "imdbID": "735028a6-c36c-4c3b-9d2c-ef27349a6b0c",
+      "Type": "movie",
+      "Poster": "img/news/news-06.jpg"
+    },
+    {
+      "Title": "Face to Face with Facebook",
+      "Year": "2007",
+      "imdbID": "01a11c08-f4ff-4149-b3a8-9eb7aa7d5d1f",
+      "Type": "Social Media",
+      "Poster": "img/news/news-07.jpg"
+    },
+    {
+      "Title": "Clustering & Feature Extraction",
+      "Year": "2007",
+      "imdbID": "96f01d72-4c8c-42be-929e-3035ed28a9da",
+      "Type": "ANALYTICS",
+      "Poster": "img/news/news-08.jpg"
+    },
+    {
+      "Title": "Multichannel Messaging",
+      "Year": "2007",
+      "imdbID": "8c83c93a-1ac5-41f7-9c4a-51ea4dabeae8",
+      "Type": "SOCIAL MEDIA",
+      "Poster": "img/news/news-09.jpg"
+    },
+    {
+      "Title": "Optimisation with ChatGPT",
+      "Year": "2007",
+      "imdbID": "ae6f94ba-9e8d-499f-8455-f5b14c7e93e2",
+      "Type": "SEO",
+      "Poster": "img/news/news-10.jpg"
+    },
+    {
+      "Title": "Taking a Closer Look",
+      "Year": "2007",
+      "imdbID": "d0c94319-953f-4ed2-bae0-30303c39c812",
+      "Type": "Market Focus",
+      "Poster": "img/news/news-11.jpg"
+    },
+    {
+      "Title": "Divergent Ideation",
+      "Year": "2007",
+      "imdbID": "109f6791-4772-4260-b564-5ef8858ab42a",
+      "Type": "FINDING INSPIRATION",
+      "Poster": "img/news/news-12.jpg"
+    },
+    {
+      "Title": "Harnessing the Power of AI",
+      "Year": "2008",
+      "imdbID": "1a2b3c4d-5e6f-7g8h-9i10-11j12k13l14m",
+      "Type": "Digital Marketing",
+      "Poster": "img/news/news-13.jpg"
+    },
+    {
+      "Title": "The Future of Content Marketing",
+      "Year": "2008",
+      "imdbID": "2b3c4d5e-6f7g-8h9i-10j11-12k13l14m15n",
+      "Type": "Content Strategy",
+      "Poster": "img/news/news-14.jpg"
+    },
+    {
+      "Title": "Revolutionizing Customer Engagement",
+      "Year": "2008",
+      "imdbID": "3c4d5e6f-7g8h-9i10-11j12-13k14l15m16o",
+      "Type": "Customer Experience",
+      "Poster": "img/news/news-15.jpg"
+    },
+    {
+      "Title": "Personalization Trends",
+      "Year": "2009",
+      "imdbID": "4d5e6f7g-8h9i-10j11-12k13-14l15m16n17p",
+      "Type": "Marketing Automation",
+      "Poster": "img/news/news-16.jpg"
+    },
+    {
+      "Title": "Unlocking the Potential of Voice Search",
+      "Year": "2009",
+      "imdbID": "5e6f7g8h-9i10-11j12-13k14-15l16m17n18q",
+      "Type": "SEO",
+      "Poster": "img/news/news-17.jpg"
+    },
+    {
+      "Title": "The Evolution of Social Media Ads",
+      "Year": "2009",
+      "imdbID": "6f7g8h9i-10j11-12k13-14l15-16m17n18o19r",
+      "Type": "Advertising",
+      "Poster": "img/news/news-18.jpg"
+    },
+    {
+      "Title": "Mastering the Art of Storytelling",
+      "Year": "2010",
+      "imdbID": "7g8h9i10-11j12-13k14-15l16-17m18n19p20s",
+      "Type": "Brand Building",
+      "Poster": "img/news/news-19.jpg"
+    },
+    {
+      "Title": "Influencer Marketing Strategies",
+      "Year": "2010",
+      "imdbID": "8h9i10j-11k12-13l14-15m16-17n18o19p20t",
+      "Type": "Social Media",
+      "Poster": "img/news/news-20.jpg"
+    },
+    {
+      "Title": "Navigating Data Privacy",
+      "Year": "2010",
+      "imdbID": "9i10j11k-12l13-14m15-16n17-18o19p20q21u",
+      "Type": "Regulation & Policy",
+      "Poster": "img/news/news-21.jpg"
+    },
+    {
+      "Title": "Maximizing ROI with PPC",
+      "Year": "2011",
+      "imdbID": "10j11k12-13l14-15m16-17n18-19o20p21r22v",
+      "Type": "Advertising",
+      "Poster": "img/news/news-22.jpg"
+    },
+    {
+      "Title": "The Rise of Video Content",
+      "Year": "2011",
+      "imdbID": "11k12l13-14m15-16n17-18o19-20p21q22s23w",
+      "Type": "Content Creation",
+      "Poster": "img/news/news-23.jpg"
+    },
+    {
+      "Title": "Community Building Online",
+      "Year": "2011",
+      "imdbID": "12l13m14-15n16-17o18-19p20-21q22r23t24x",
+      "Type": "Engagement",
+      "Poster": "img/news/news-24.jpg"
+    },
+    {
+      "Title": "The Power of Micro-Influencers",
+      "Year": "2012",
+      "imdbID": "13m14n15-16o17-18p19-20q21-22r23s24u25y",
+      "Type": "Social Media",
+      "Poster": "img/news/news-25.jpg"
+    },
+    {
+      "Title": "Ethical Marketing Practices",
+      "Year": "2012",
+      "imdbID": "14n15o16-17p18-19q20-21r22-23s24t25v26z",
+      "Type": "Business Ethics",
+      "Poster": "img/news/news-26.jpg"
+    },
+    {
+      "Title": "Shaping Brand Perception",
+      "Year": "2012",
+      "imdbID": "15o16p17-18q19-20r21-22s23-24t25u26w27a",
+      "Type": "Brand Strategy",
+      "Poster": "img/news/news-27.jpg"
+    },
+    {
+      "Title": "The Impact of AR in Marketing",
+      "Year": "2013",
+      "imdbID": "16p17q18-19r20-21s22-23t24-25u26v27x28b",
+      "Type": "Technology",
+      "Poster": "img/news/news-28.jpg"
+    },
+    {
+      "Title": "Building Trust in a Digital World",
+      "Year": "2013",
+      "imdbID": "17q18r19-20s21-22t23-24u25-26v27w28y29c",
+      "Type": "Consumer Trust",
+      "Poster": "img/news/news-29.jpg"
+    },
+    {
+      "Title": "Optimizing for Mobile",
+      "Year": "2013",
+      "imdbID": "18r19s20-21t22-23u24-25v26-27w28x29z30d",
+      "Type": "Mobile Marketing",
+      "Poster": "img/news/news-30.jpg"
+    },
+    {
+      "Title": "Driving Conversions with UX Design",
+      "Year": "2014",
+      "imdbID": "19s20t21-22u23-24v25-26w27-28x29y30a31e",
+      "Type": "User Experience",
+      "Poster": "img/news/news-31.jpg"
+    },
+    {
+      "Title": "The Science of Email Campaigns",
+      "Year": "2014",
+      "imdbID": "20t21u22-23v24-25w26-27x28-29y30z31b32f",
+      "Type": "Email Marketing",
+      "Poster": "img/news/news-32.jpg"
+    },
+    {
+      "Title": "Artificial Intelligence in Ad Targeting",
+      "Year": "2014",
+      "imdbID": "21u22v23-24w25-26x27-28y29-30z31a32c33g",
+      "Type": "Advertising Technology",
+      "Poster": "img/news/news-33.jpg"
+    },
+    {
+      "Title": "Boosting Engagement with Live Content",
+      "Year": "2015",
+      "imdbID": "22v23w24-25x26-27y28-29z30-31a32b33d34h",
+      "Type": "Content Strategy",
+      "Poster": "img/news/news-34.jpg"
+    },
+    {
+      "Title": "Interactive Ads: What's Next?",
+      "Year": "2015",
+      "imdbID": "23w24x25-26y27-28z29-30a31-32b33c34e35i",
+      "Type": "Interactive Media",
+      "Poster": "img/news/news-35.jpg"
+    },
+    {
+      "Title": "Measuring Success Beyond Clicks",
+      "Year": "2015",
+      "imdbID": "24x25y26-27z28-29a30-31b32-33c34d35f36j",
+      "Type": "Analytics",
+      "Poster": "img/news/news-36.jpg"
+    },
+    {
+      "Title": "Balancing Creativity and Data",
+      "Year": "2016",
+      "imdbID": "25y26z27-28a29-30b31-32c33-34d35e36g37k",
+      "Type": "Creative Strategy",
+      "Poster": "img/news/news-37.jpg"
+    },
+    {
+      "Title": "The Role of Gamification",
+      "Year": "2016",
+      "imdbID": "26z27a28-29b30-31c32-33d34-35e36f37h38l",
+      "Type": "Engagement",
+      "Poster": "img/news/news-38.jpg"
+    },
+    {
+      "Title": "Integrating Offline and Online Marketing",
+      "Year": "2016",
+      "imdbID": "27a28b29-30c31-32d33-34e35-36f37g38i39m",
+      "Type": "Integrated Marketing",
+      "Poster": "img/news/news-39.jpg"
+    },
+    {
+      "Title": "Pioneering in the Metaverse",
+      "Year": "2017",
+      "imdbID": "28b29c30-31d32-33e34-35f36-37g38h39j40n",
+      "Type": "Future Trends",
+      "Poster": "img/news/news-40.jpg"
+    },
+    {
+      "Title": "A Deep Dive into Predictive Analytics",
+      "Year": "2017",
+      "imdbID": "29c30d31-32e33-34f35-36g37-38h39i40k41o",
+      "Type": "Data Science",
+      "Poster": "img/news/news-41.jpg"
+    },
+    {
+      "Title": "Elevating Event Experiences",
+      "Year": "2017",
+      "imdbID": "30d31e32-33f34-35g36-37h38-39i40j41l42p",
+      "Type": "Event Marketing",
+      "Poster": "img/news/news-42.jpg"
+    },
+    {
+      "Title": "Brand Consistency Across Channels",
+      "Year": "2018",
+      "imdbID": "31e32f33-34g35-36h37-38i39-40j41k42m43q",
+      "Type": "Brand Management",
+      "Poster": "img/news/news-43.jpg"
+    },
+    {
+      "Title": "Data-Driven Creativity",
+      "Year": "2018",
+      "imdbID": "32f33g34-35h36-37i38-39j40-41k42l43n44r",
+      "Type": "Creative Strategy",
+      "Poster": "img/news/news-44.jpg"
+    },
+    {
+      "Title": "The Shift to Eco-Friendly Marketing",
+      "Year": "2018",
+      "imdbID": "33g34h35-36i37-38j39-40k41-42l43m44o45s",
+      "Type": "Sustainability",
+      "Poster": "img/news/news-45.jpg"
+    },
+    {
+      "Title": "The Power of Co-Creation",
+      "Year": "2019",
+      "imdbID": "34h35i36-37j38-39k40-41l42-43m44n45p46t",
+      "Type": "Community Building",
+      "Poster": "img/news/news-46.jpg"
+    },
+    {
+      "Title": "Programmatic Advertising in 2019",
+      "Year": "2019",
+      "imdbID": "35i36j37-38k39-40l41-42m43-44n45o46q47u",
+      "Type": "Advertising Technology",
+      "Poster": "img/news/news-47.jpg"
+    },
+    {
+      "Title": "Breaking the Fourth Wall with AR",
+      "Year": "2019",
+      "imdbID": "36j37k38-39l40-41m42-43n44-45o46p47r48v",
+      "Type": "Immersive Tech",
+      "Poster": "img/news/news-48.jpg"
+    },
+    {
+      "Title": "Demystifying Blockchain for Marketers",
+      "Year": "2020",
+      "imdbID": "37k38l39-40m41-42n43-44o45-46p47q48s49w",
+      "Type": "Technology",
+      "Poster": "img/news/news-49.jpg"
+    },
+    {
+      "Title": "The Role of Diversity in Advertising",
+      "Year": "2020",
+      "imdbID": "38l39m40-41n42-43o44-45p46-47q48r49t50x",
+      "Type": "Inclusive Marketing",
+      "Poster": "img/news/news-50.jpg"
+    },
+    {
+      "Title": "From Clicks to Communities",
+      "Year": "2020",
+      "imdbID": "39m40n41-42o43-44p45-46q47-48r49s50u51y",
+      "Type": "Social Media",
+      "Poster": "img/news/news-51.jpg"
+    }
+  ],
+  "totalResults": "52",
+  "Response": "True"
+}

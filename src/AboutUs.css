@@ -1,0 +1,57 @@
+/* AboutUs.css */
+
+/* Container for the entire component */
+.about-us-container {
+    max-width: 800px; /* Limit the width for readability */
+    margin: 40px auto; /* Center the content and add some vertical margin */
+    width: 80%;
+    padding: 15px; /* Add some padding for spacing */
+    font-family: Arial, sans-serif; /* Set a simple, readable font */
+    line-height: 1.6; /* Improve readability by increasing line spacing */
+    color: #333; /* Dark gray color for text */
+  }
+  
+  /* Title styling */
+  .about-us-title {
+    text-align: left; /* Left-align the title */
+    font-size: 2rem; /* Adjust font size */
+    margin-bottom: 10px; /* Space below the title */
+
+    color: #222; /* Darker shade for the title */
+  }
+  
+  /* Paragraph styling */
+  .about-us-paragraph {
+    font-size: 1.2rem; /* Base font size */
+    margin-bottom: 25px; /* Space between paragraphs */
+    margin-top: 25px;
+
+    text-align: justify; /* Justify the paragraph text for a cleaner look */
+  }
+
+  .image-container {
+    display: flex;
+    justify-content: center; /* Center the image horizontally */
+    margin: 20px 40px;
+  }
+  
+  .about-us-image {
+    max-width: 100%; /* Make sure the image doesn't overflow */
+    height: auto; /* Maintain aspect ratio */
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: add a subtle shadow */
+  }
+  
+  /* Responsive styling for smaller screens */
+  @media (max-width: 600px) {
+    .about-us-title {
+      font-size: 1.5rem; /* Reduce font size for smaller screens */
+    }
+    .about-us-paragraph {
+      font-size: 1.0rem; /* Slightly smaller font size */
+    }
+    .about-us-container {
+      padding: 10px; /* Reduce padding for smaller screens */
+    }
+  }
+  

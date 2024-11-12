@@ -1,89 +1,67 @@
-import {React, useState, useEffect} from "react";
+import {React, useState} from "react";
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 
 import './App.css';
-import SearchIcon from './search.svg';
-import MovieCard from './MovieCard';
+//import SearchIcon from './search.svg';
+//import MovieCard from './MovieCard';
 import Header from './Header';
 import Hero from './Hero';
-import SearchBar from './SearchBar';
 import Gallery from "./Gallery";
-import GalleryCard from "./GalleryCard";
+//import GalleryCard from "./GalleryCard";
 import Footer from "./Footer";
+import AboutUs from "./AboutUs";
+import ContactUs from "./ContactUs";
 
+//const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=a7d1fcab';
 
-const API_URL = 'http://www.omdbapi.com/?i=tt3896198&apikey=a7d1fcab';
-
-const movie1 = {
-    "Title": "Spiderman",
-    "Year": "1990",
-    "imdbID": "tt0100669",
-    "Type": "movie",
-    "Poster": "N/A"
-}
+// const movie1 = {
+//     "Title": "Spiderman",
+//     "Year": "1990",
+//     "imdbID": "tt0100669",
+//     "Type": "movie",
+//     "Poster": "N/A"
+// }
 
 const App = () => {
 
-    const [movies, setMovies] = useState([]);
-    const [searchTerm, setSearchTerm] = useState('');
+    //const [movies, setMovies] = useState([]);
+    //const [searchTerm, setSearchTerm] = useState('');
 
-    const search = async (title) => {
-        const response = await fetch(`${API_URL}&s=${title}`);
-        const data = await response.json();
-        setMovies(data.Search);
-    }
+    // State to store the search query
+    const [searchQuery, setSearchQuery] = useState('');
 
-    useEffect(() => {
-        search('Spiderman');
-    }, []);
+    // Update the search query state
+    const handleSearch = (query) => {
+        setSearchQuery(query);
+    };
+
+    // const search = async (title) => {
+    //     const response = await fetch(`${API_URL}&s=${title}`);
+    //     const data = await response.json();
+    //     setMovies(data.Search);
+    // }
+
+    // useEffect(() => {
+    //     search('Spiderman');
+    // }, []);
 
     return (
+        <Router>
+        <body>
         <div className="app">
-            <h1>MovieLand</h1>
             <Header />
-            <main>
-            <Hero />
-            <SearchBar />
-            <div className="search">
-                <input
-                    placeholder="Search for movies"
-                    value={searchTerm}
-                    onChange={(e) => setSearchTerm(e.target.value)}
-                />
-                <img
-                    src={SearchIcon}
-                    alt="search"
-                    onClick={() => search(searchTerm)}
-                />
-            </div>
-            <div className="search">
-              <button 
-                      className="search-button"
-                      placeholder="Search for movies"
-                      type="submit"
-                      onClick={() => search(searchTerm)}>Search</button>              
-            </div>
-            <div>
-              
-            </div>
-
-            <Gallery />
-            <GalleryCard />
-
-            {movies?.length > 0
-                ? (
-                    <div className="container">
-                    {movies.map((movie) => (
-                        <MovieCard movie={movie} />
-                    ))}
-                    </div>
-                ) : (
-                    <div className="empty">
-                        <h2>No movies found</h2>
-                    </div>
-                )}
+            <main className="main" id="main">
+            <Hero onSearch={handleSearch} />
+            <Routes>
+                <Route path="/" element={<Gallery searchQuery={searchQuery} />} /> {/* Home route */}
+                <Route path="/about" element={<AboutUs />} /> {/* About Us route */}
+                <Route path="/contact" element={<ContactUs />} /> {/* Contact Us route */}
+            </Routes>
             </main>
             <Footer />
         </div>
+        </body>
+        </Router>
     );
 }
 

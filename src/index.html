@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style-02.css">
+</head>
+<body>
+    <div id="root">
+        <div class="app">
+            <header class="header" id="header">
+                <div class="logo-container">
+                    <img class="logo-image" src="img/logo.jpg" alt="Logo Image">
+                    <h1 class="logo-text">M.A.N.Z.</h1>
+                </div>
+                <div class="menu-button" onclick="toggleMenu()">☰</div>
+                <nav id="nav-menu" class="right" id="nav-menu"">
+                        <ul>
+                            <li class="nav-item"><a href="#home">Home</a></li>
+                            <li class="nav-item"><a href="mailto:your-email@example.com">Contant Us</a></li>
+                            <li class="nav-item"><a href="#about-facebook">About Us</a></li>
+                            <li class="nav-item"><a href="#sign-in">Sign in</a></li>
+                        </ul>
+                </nav>
+            </header>
+
+            <main class="main" id="main">
+
+                <section class="hero" id="hero">
+
+                    <div class="hero-content">
+                        <!-- Unsplash image - https://unsplash.com/s/photos/social-media-marketing -->
+                        <h1 class="hero-text">A World
+                            <br/>Within Reach</h1>
+                        <img src="img/manz.png" alt="Hero Image"  class="hero-image">
+                        <div class="hero-placeholder"></div>
+                        
+                    </div>
+
+                    <div class="search-bar-container">
+                        <input type="text" class="search-bar" placeholder="Search...">
+                        <button class="search-button">Search</button>
+                    </div>
+                </section>
+
+                <div class="gallery" id="gallery">
+
+                    <div class="gallery-card">
+                        <div><p>2007</p></div>
+                        <div><img src="img/news/news-01.jpg" alt="Italian Spiderman"></div>
+                        <div><span>Digital Marketing</span><h3>Changes at Linked In</h3></div>
+                    </div>
+
+                    <div class="gallery-card">
+                        <div><p>2007</p></div>
+                        <div><img src="img/news/news-02.jpg" alt="Italian Spiderman"></div>
+                        <div><span>Streaming Media</span><h3>Going Viral</h3></div>
+                    </div>
+
+                    <div class="gallery-card">
+                        <div><p>2007</p></div>
+                        <div><img src="img/news/news-03.jpg" alt="Italian Spiderman"></div>
+                        <div><span>PASSION</span><h3>No More Mediocre</h3></div>
+                    </div>
+
+                    <div class="gallery-card">
+                        <div><p>2007</p></div>
+                        <div><img src="img/news/news-04.jpg" alt="Italian Spiderman"></div>
+                        <div><span>Social Media</span><h3>All a Twitter with X</h3></div>
+                    </div>
+
+                    <div class="gallery-card">
+                        <div><p>2007</p></div>
+                        <div><img src="img/news/news-05.jpg" alt="Italian Spiderman"></div>
+                        <div><span>SIGNAGE</span><h3>Captivating the Audience</h3></div>
+                    </div>
+
+                    <div class="gallery-card">
+                        <div><p>2007</p></div>
+                        <div><img src="img/news/news-06.jpg" alt="Italian Spiderman"></div>
+                        <div><span>movie</span><h3>Italian Spiderman</h3></div>
+                    </div>
+
+                    <div class="gallery-card">
+                        <div><p>2007</p></div>
+                        <div><img src="img/news/news-07.jpg"></div>
+                        <div><span>Social Media</span><h3>Face to Face with Facebook</h3></div>
+                    </div>
+
+
+                    <div class="gallery-card">
+                        <div><p>2007</p></div>
+                        <div><img src="img/news/news-08.jpg" alt="Italian Spiderman"></div>
+                        <div><span>ANALYTICS</span><h3>Clustering & Feature Extraction</h3></div>
+                    </div>
+
+                    <div class="gallery-card">
+                        <div><p>2007</p></div>
+                        <div><img src="img/news/news-09.jpg" alt="Italian Spiderman"></div>
+                        <div><span>SOCIAL MEDIA</span><h3>Multichannel Messaging</h3></div>
+                    </div>
+
+                    <div class="gallery-card">
+                        <div><p>2007</p></div>
+                        <div><img src="img/news/news-10.jpg" alt="Italian Spiderman"></div>
+                        <div><span>SEO</span><h3>Optimisation with ChatGPT</h3></div>
+                    </div>
+
+                    <div class="gallery-card">
+                        <div><p>2007</p></div>
+                        <div><img src="img/news/news-11.jpg"></div>
+                        <div><span>Market Focus</span><h3>Taking a Closer Look</h3></div>
+                    </div>
+
+                    <div class="gallery-card">
+                        <div><p>2007</p></div>
+                        <div><img src="img/news/news-12.jpg"></div>
+                        <div><span>FINDING INSPIRATION</span><h3>Divergent Ideation</h3></div>
+                    </div>
+                </div>
+
+            </main>
+
+            <footer class="footer" id="footer">
+                Copyright © 2023 Marketing Association of New Zealand (M.A.N.Z.)
+            </footer>
+        
+        </div>
+    
+    </div>
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('menu-active');
+        }
+    </script>
+</body>
+</html>
+
+<!doctype html><html lang="en"><head><meta charset="utf-8"/><link rel="icon" href="/favicon.ico"/><meta name="viewport" content="width=device-width,initial-scale=1"/><meta name="theme-color" content="#000000"/><meta name="description" content="Web site created using create-react-app"/><link rel="apple-touch-icon" href="/logo192.png"/><link rel="manifest" href="/manifest.json"/><title>React App</title><script defer="defer" src="/static/js/main.6a65fe01.js"></script><link href="/static/css/main.ca36c8e3.css" rel="stylesheet"></head><body><noscript>You need to enable JavaScript to run this app.</noscript><div id="root"></div></body></html>

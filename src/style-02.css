@@ -1,0 +1,402 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Slab:100,300,400,700");
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Oswald:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i");
+@import url("https://fonts.googleapis.com/css?family=Host+Grotesk:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i");
+
+/* Apply a universal box-sizing rule to include padding and border in the element's total width and height.
+   Also, remove default margin and padding from all elements. */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --font-roboto: "Roboto Slab", serif;
+    --font-raleway: "Raleway", sans-serif;
+    --font-oswald: "Oswald", sans-serif;
+    --font-host-grotesk: "Host Grotesk", sans-serif;
+    --font-open-sans: "Open Sans", sans-serif;
+    --color-background: #fdfbfc; /* Warm white */
+    --color-primary: #fffff;
+    --color-font: #2c2c2c;
+    --color-border: #1f2123;
+    --color-button: #4b5e71;
+    --color-button-font: #dbd9d9;
+
+    --color-gallery-card: #144b5e;
+    --color-hero-text: #e5ecee;
+  }
+
+/* Style the body with a default font and line-height to improve readability. */
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4;
+    background-color: var(--color-background);
+}
+
+/* Header styling: Create a flexible layout that spaces out the logo and navigation evenly,
+   centers them vertically, and adds padding. Set a dark background and white text color. */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: var(--color-background);
+    color: var(--color-font);
+}
+
+/* Style for the logo text: Make it larger and bold. */
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: var(--color-gallery-card);
+}
+
+/* Updated style for the logo image */
+.logo-image {
+    width: 10%;      /* Explicitly set the image to half of its original width */
+    max-width: 10%;  /* Ensure the image doesn't grow larger than 50% of its container */
+    height: auto;    /* Maintain the aspect ratio */
+    object-fit: contain;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center; /* Align items vertically in the center */
+    gap: 10px; /* Space between the logo image and text */
+}
+
+/* Navigation styling: Display nav items in a horizontal row with some space between them. */
+nav {
+    display: flex;
+}
+
+nav > ul {
+    display: flex;
+    gap: 15px;
+    justify-content: flex-end;
+    /* margin: 50px 100px;*/
+}
+
+nav > ul > li {
+    background-color: #d8e4ef;
+    text-align: center;
+    font-size: 16px;
+    list-style: none;
+  }
+  
+nav > ul > li > a {
+    /* font-size: 0.70rem; */
+    color:rgb(34, 56, 76);
+    text-wrap: nowrap;
+    color: var(--color-gallery-card); 
+    text-decoration: none;
+}
+
+/* Style for individual navigation links: Remove underline, set text color to white,
+   and add padding for clickable area. */
+.nav-item {
+    text-decoration: none;
+    color: white;
+    background-color: var(--color-background);
+    padding: 8px 12px;
+    border: var(--color-background) solid 1px;
+}
+
+.nav-item:hover {
+    color: white;
+    cursor: pointer;
+    border: var(--color-gallery-card) solid 1px;
+}
+
+/* Menu button styling: Hide by default, but set a larger font size and pointer cursor. */
+.menu-button {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+/* Hero section: Use a background image that covers the entire section,
+   with an aspect ratio of 16:9. Center the content both horizontally and vertically. */
+.hero {
+    position: relative;
+    background: url('img/krzysztof-kowalik-2pnozU26QBo-unsplash.png') no-repeat center center/cover;
+    width: 100%;
+    aspect-ratio: 16/9;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px;
+    padding-bottom: 100px
+}
+
+/* Container for image and text in the hero banner */
+.hero-content {
+    display: flex;
+    flex-wrap: wrap;;
+    align-items: flex-start; /* Align items to the top of the image */
+    justify-content: center;
+    width: 100%; /* Take full page width */
+    max-width: 1200px; /* Optional: Limit the container's width */
+    padding-left: 10px; /* Left padding for the text */
+    padding-right: 10px; /* Right padding for the text */
+    padding-bottom: 60px;
+    gap: 20px; /* Space between the text and the image */
+}
+
+/* Style for the hero image */
+.hero-image {
+    max-width: 320px; /* Set a max width for the image */
+    height: auto;
+    align-self: center; /* Center the image vertically in the flex container */
+    flex-shrink: 0; /* Prevent the image from shrinking */
+    border: var(--color-gallery-card) solid 10px;
+    box-shadow: #1f2123ba 10px 11px 12px 0px, #222527 8px 8px 20px 0px;
+}
+
+/* Style for the hero text */
+.hero-text {
+    font-family: var(--font-open-sans);
+    letter-spacing: 0.1rem;
+    font-size: 56px; /* Large text size */
+    font-weight: 600;
+    color: var(--color-hero-text);
+    margin: 0; /* Remove default margin */
+    line-height: 1.2; /* Control line spacing */
+    max-width: 600px; /* Optional: Limit the text width */
+    flex: 1; /* Allow text to grow and take up space */
+    text-shadow: 4px 4px 3px rgba(0, 0, 0, 0.7);
+
+}
+
+/* Placeholder element */
+.hero-placeholder {
+    flex-grow: 1; /* Take up remaining space */
+    max-width: 600px; /* Match the max-width of the hero text */
+    max-width: 600px; /* Match the width of the text */
+    min-height: 1px; /* Ensure the element occupies space */
+}
+
+/* Search bar container: Use a flexible layout that wraps elements if needed,
+   with a gap between items and a max width of 600px. */
+.search-bar-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    max-width: 600px;
+    width: 90%;
+}
+
+/* Search bar input styling: Make it flexible to take available space,
+   and set padding and font size for usability. */
+.search-bar {
+    flex: 1;
+    padding: 10px;
+    font-size: 16px;
+}
+
+/* Search button styling: Add padding, font size, and a pointer cursor for interactivity. */
+.search-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    color: var(--color-gallery-card)
+}
+
+/* Gallery section: Use a flexible layout that wraps items, with space between them and some padding. */
+.gallery {
+    width: 100%;
+    margin-top: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 35px;
+    padding: 20px;
+    /* padding-left: 40px;
+    padding-right: 40px; */
+    background-color: var(--color-background);
+}
+
+/* Gallery card styling: Light gray background, padding, and flexible layout
+   that allows 3 cards per row with a small gap. */
+
+
+.gallery-card {
+    width: 360px;
+    height: 340px;
+    margin: 1.5rem;
+  
+    position: relative;
+    /* border-radius: 12px; */
+    overflow: hidden;
+    border: none;
+  
+    transition: all 0.4s cubic-bezier(0.175, 0.885, 0, 1);
+    box-shadow: 0px 13px 10px -7px rgba(0, 0, 0, 0.1);
+  }
+  
+  .gallery-card div:nth-of-type(1) {
+    position: absolute;
+    padding: 16px;
+    width: 100%;
+    opacity:0;
+    top: 0;
+    color: var(--color-gallery-card);
+  }
+  
+  .gallery-card:hover {
+    box-shadow: 0px 30px 18px -8px rgba(0, 0, 0, 0.1);
+    transform: scale(1.05, 1.05);
+  }
+  
+  .gallery-card div:nth-of-type(2) {
+    width: 100%;
+    height: 100%;
+  }
+  
+  .gallery-card div:nth-of-type(2) img {
+    height: 80%;
+    width: 100%;
+    border: var(--color-gallery-card) solid 1px;
+    object-fit: cover;
+    object-position: center;
+  }
+  
+  .gallery-card div:nth-of-type(3) {
+    z-index: 2;
+    background-color: var(--color-gallery-card);
+    padding: 16px 24px 24px 24px;
+  
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+  }
+  
+  .gallery-card div:nth-of-type(3) span {
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    font-size: 13px;
+    letter-spacing: 2px;
+    font-weight: 500;
+    color: #f0f0f0;
+  }
+  
+  .gallery-card div:nth-of-type(3) h3 {
+    margin-top: 5px;
+    font-family: var(--font-open-sans), serif;
+    color: var(--color-button-font);
+  }
+  
+  .gallery-card:hover div:nth-of-type(2) {
+    height: 100%;
+    opacity: 0.3;
+  }
+  
+  .gallery-card:hover div:nth-of-type(3) {
+    background-color: transparent;
+  }
+  
+  .gallery-card:hover div:nth-of-type(1) {
+    opacity: 1;
+  }
+
+/* Footer styling: Center the text, add padding, and match the header's dark theme. */
+footer {
+    text-align: center;
+    padding: 15px;
+    background-color: var(--color-hero-text);
+    color: var(--color-button-font);
+    margin-top: 60px;
+    color: var(--color-font);
+    font-family: var(--font-open-sans);
+}
+
+/* Responsive Styles for screens narrower than 768px (e.g., tablets) */
+@media (max-width: 768px) {
+    /* Hide the nav menu and style it as a vertical dropdown with a dark background,
+       appearing when the menu button is clicked. */
+    nav {
+        display: none;
+        flex-direction: column;
+        background-color: var(--color-gallery-card);
+        padding: 10px;
+        position: absolute;
+        right: 7px;
+        top: 65px;
+        /* border-radius: 5px; */
+        border:#aca9a9 solid 1px;
+        width: 200px;
+        z-index: 1;
+    }
+
+    nav > ul {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+
+    }
+
+    .hero-content {
+        flex-direction: column; /* Stack text and image vertically */
+        align-items: center; /* Center items horizontally */
+        text-align: center; /* Center the text */
+    }
+
+    .hero-text {
+        margin-bottom: 10px; /* Space between text and image */
+        max-width: 100%; /* Allow text to take full width */
+    }
+
+    .hero-placeholder {
+        display: none; /* Hide the placeholder when stacked */
+    }
+
+    /* Show the menu button for mobile navigation. */
+    .menu-button {
+        display: block;
+    }
+
+    /* Class to activate the menu, making it visible as a vertical flex layout. */
+    .menu-active {
+        display: flex;
+    }
+
+    /* Gallery cards adjust to 2 per row for tablets. */
+    .gallery-card {
+        flex: 1 1 calc(50% - 30px);
+        max-width: calc(50% - 30px);
+    }
+}
+
+/* Responsive Styles for screens narrower than 480px (e.g., mobile phones) */
+@media (max-width: 480px) {
+    /* Stack search bar elements vertically and center them. */
+    .search-bar-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    /* Search bar input styling: Make it flexible to take available space,
+    and set padding and font size for usability. */
+    .search-bar {
+        flex: 1;
+        padding: 10px;
+        font-size: 16px;
+        width: 100%;
+    }
+
+    /* Gallery cards take full width on mobile devices. */
+    .gallery-card {
+        flex: 1 1 100%;
+        max-width: 100%;
+    }
+
+    body {
+        min-width: 375px;
+    }
+}

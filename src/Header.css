@@ -1,0 +1,59 @@
+/* Styling for the submit button */
+.styled-submit-button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .styled-submit-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Styling for the close button */
+  .styled-close-button {
+    background-color: #dc3545;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+  }
+  
+  .styled-close-button:hover {
+    background-color: #c82333;
+  }
+  
+  /* Basic form styling */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Input fields styling */
+  input {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  /* Label styling */
+  label {
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
